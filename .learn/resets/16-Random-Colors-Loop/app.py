@@ -5,12 +5,12 @@ def get_color(color_number=4):
     color_number = int(color_number)
 
     switcher={
-                0:'red',
-                1:'yellow',
-                2:'blue',
-                3:'green',
-                4:'black'
-            }
+                  0:'red',
+                  1:'yellow',
+                  2:'blue',
+                  3:'green',
+                  4:'black'
+              }
     return switcher.get(color_number,"Invalid Color Number")
 
 
