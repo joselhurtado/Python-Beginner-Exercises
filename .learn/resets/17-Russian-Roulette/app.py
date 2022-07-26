@@ -1,5 +1,3 @@
-#Code Already Compiled
-
 import random
 
 bullet_position = 3
@@ -11,9 +9,9 @@ def spin_chamber():
 #  DON'T CHANGE THE CODE ABOVE
 def fire_gun():
 	# YOUR CODE HERE
-	if spin_chamber() == bullet_position:
-		return "You're dead!"
-	else:
-		return "Keep playing!"
+	return None
+
+
+
 
 print(fire_gun())
