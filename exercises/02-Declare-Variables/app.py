@@ -1,1 +1,4 @@
-# your code here
+# Code Already Compiled
+
+color = "Yellow"
+print(color)
